@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 
 //build out Routing options
 
-require("./app/routing/apiRoutes")(app);
+// require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 //setup app to listen for calls
