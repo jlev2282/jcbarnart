@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/jlev2282/jcbarnart/issues"
   },
-  "homepage": "https://github.com/jlev2282/jcbarnart#readme"
+  "homepage": "https://github.com/jlev2282/jcbarnart#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
 }
