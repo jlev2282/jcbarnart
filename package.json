@@ -1,0 +1,25 @@
+{
+  "name": "jcbarnart",
+  "version": "1.0.0",
+  "description": "site for Jeannette Barnett to showcase her art",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlev2282/jcbarnart.git"
+  },
+  "keywords": [
+    "art",
+    "mom",
+    "jeannette",
+    "portfolio"
+  ],
+  "author": "John Leverett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlev2282/jcbarnart/issues"
+  },
+  "homepage": "https://github.com/jlev2282/jcbarnart#readme"
+}
