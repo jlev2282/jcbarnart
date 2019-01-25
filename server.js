@@ -11,12 +11,17 @@ var app = express();
 
 var PORT = process.env.PORT || 2207;
 
+// Serve static content for the app from the "public" directory in the application directory.
+app.use(express.static("app/public"));
+
 //build in body-parser
 
 //parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true}));
 //parse application/json
 app.use(bodyParser.json());
+
+
 
 //build out Routing options
 
