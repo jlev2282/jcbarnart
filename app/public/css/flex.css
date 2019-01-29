@@ -1,11 +1,21 @@
 .gallery {
     display: flex;
-    align-content: flex-start;
-    border: solid;
+    align-items: flex-start;
     flex-wrap: wrap;
+    /* justify-content: space-between; */
     justify-content: space-between;
 }
 
 .gallery-art {
     flex: 1;
+    border: none;
+    box-shadow: none;
+    margin: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .gallery-art {
+        width: 100%;
+        text-align: center;
+    }
 }
