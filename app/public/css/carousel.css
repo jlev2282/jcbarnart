@@ -40,7 +40,7 @@ body {
   /* Carousel base class */
   .carousel {
     height: 500px;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
   }
   .carousel-caption {
     z-index: 10; /* Since positioning the image, we need to help out the caption */
@@ -135,11 +135,11 @@ body {
 
   }
 
-  @media (max-width: 992px) {
+  /* @media (max-width: 992px) {
     #carousel {
       padding-top: 50px;         
     }
-  }
+  } */
 
 
   
