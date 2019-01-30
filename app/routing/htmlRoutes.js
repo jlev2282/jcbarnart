@@ -12,6 +12,11 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname, "/../public/contact.html"));
     });
 
+    //route to take user to gallery
+    app.get("/gallery", function(req, res) {
+        res.sendFile(path.join(__dirname, "/../public/gallery.html"));
+    });
+
     //route to take user to survey guaging their interest in purchasing art
     app.get("/survey", function(req, res) {
         res.sendFile(path.join(__dirname, "/../public/survey.html"));
