@@ -7,6 +7,11 @@ module.exports = function(app) {
 
     //HTML GET Requests
 
+    //route to take user to the landing carousel
+    app.get("/landing", function(req, res) {
+        res.sendFile(path.join(__dirname, "/../public/landing.html"));
+    });
+
     //route to take user to contact request form
     app.get("/contact", function(req, res) {
         res.sendFile(path.join(__dirname, "/../public/contact.html"));
