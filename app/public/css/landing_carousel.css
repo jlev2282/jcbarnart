@@ -1,0 +1,33 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+
+#myCarousel {
+    max-height: 100vh;
+}
+
+#myCarousel img {
+    max-height: 75vh;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.carousel-caption {
+position: relative;
+left: auto;
+right: auto;
+}
+
+body {
+    background-color: black;
+}
+
+@media (min-width: 992px) {
+
+    #myCarousel img {
+        min-width: 60%;
+    }
+
+}
