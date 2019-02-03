@@ -12,6 +12,11 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname, "/../public/landing.html"));
     });
 
+    //route to take user to the home page
+    app.get("/home", function(req, res) {
+        res.sendFile(path.join(__dirname, "/../public/home.html"));
+    });
+
     //route to take user to contact request form
     app.get("/contact", function(req, res) {
         res.sendFile(path.join(__dirname, "/../public/contact.html"));

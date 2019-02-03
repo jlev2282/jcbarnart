@@ -1,57 +1,314 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
     <title>JCBarnArt</title>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous"> -->
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css" integrity="sha384-jzngWsPS6op3fgRCDTESqrEJwRKck+CILhJVO5VvaAZCq8JYf8HsR/HPpBOOPZfR" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css" integrity="sha384-jzngWsPS6op3fgRCDTESqrEJwRKck+CILhJVO5VvaAZCq8JYf8HsR/HPpBOOPZfR" crossorigin="anonymous"> -->
     
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
     <!-- Font Awesome Glyphicons -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> -->
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-
-</head>
-<body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
-                    <span class="sr-only">TOGGLE</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">J.C. BARNETT</a>
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/flex.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+      <header>
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">J.C. Barnett</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
+        </nav>        
+      </header>
 
-            <div class="collapse navbar-collapse" id="main-menu">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#gallery">GALLERY</a></li>
-                    <li><a href="#news">NEWS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </div>           
+    <!-- <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">J.C. Barnett</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div> -->
+
+    <!-- Carousel
+        ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img class="first-slide" src="/barnart/red_trees.jpg" alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Jeanette Barnett</h1>
+                        <p><a class="btn btn-lg btn-primary" href="#gallery" role="button">See More</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="second-slide" src="/barnart/sassy_ladies.jpg" alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <!-- <h1>Another example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                            at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> -->
+                        <p><a class="btn btn-lg btn-primary" href="#gallery" role="button">More Works</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="third-slide" src="/barnart/buffalo_soldiers.jpg" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>One more for good measure.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                            at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#gallery" role="button">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="jumbotron">
-                <h1>WELCOME TO JCBARNART</h1>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div><!-- /.carousel -->
+
+    <div class="container" style="background-color: #f7f5f5;">
+        <!-- Biography section -->
+        <div id="about" class="row">
+            <div class="col-md-4" style="padding: 2%;">
+                <img src="images/jc1.jpg" alt="Generic placeholder image" width="100%" height="auto" style="border-radius: 5px;">
+            </div>
+            <div class="col-md-8">
+                <h3>BIOGRAPHY</h3><br>
+                <p>b. 1949, Valdosta, GA</p>
+                <p>Live and work in Atlanta, GA</p>
+                <p>Jeannette Barnett was born Jeannette Carter in Valdosta, Georgia in 1949. A preacher's daughter and eldest daughter of 5 she would tell me that there was no time for sports and leisure life. T
+                    here was time for school and church. Keeping in this line with this disciplined and focused upbringing, Jeannette went on to college and became an accountant. She even worked for Price Waterhouse in New York, City before finally settling one
+                    Atlanta and the Georgia Tech budget office as her career pursuit. She served there 30 years and was one of the most senior employees in her department at the time of retirement 30 years later. And now in her retirement, there is time for leisure.
+                    To pursue a dream put off as a child, to become an artist. Jeannette explores multiple types of media in her art, determined to not be constrained again. Vibrant colors, vivid scenes, and deep topics are just a few of the themes and approaches you'll find
+                    in her work. 
+                </p>
+            </div>
+        </div><br>
+    </div>
+    <!-- <div class="container gallery">
+        <img src="barnart/rose_and_pink.jpg" class="gallery-art">
+        <img src="barnart/sassy_ladies.jpg" class="gallery-art">
+        <img src="barnart/soccer_boy.jpg" class="gallery-art">
+    </div> -->
+    <div class="container gallery">
+        <div class="thumbnail gallery-art">
+            <img src="barnart/preacher.jpg" alt="preacher">
+            <div class="caption">
+                <h3>J.C. Barnett</h3>
+                <p>"The Preacher</p>
+                <p>J.C. grew up in the bible belt and scenes like these were a routine part of life. Her father was a preacher who's flock hung on his every word.</p>
+                <p>2016</p>
+            </div>
+        </div>
+        <div class="thumbnail gallery-art">
+            <img src="barnart/island_house.jpg" alt="island house">
+            <div class="caption">
+                <h3>J.C. Barnett</h3>
+                <p>"Island House"</p>
+                <p>2016</p>
+            </div>
+        </div>
+        <div class="thumbnail gallery-art">
+            <img src="barnart/viola_davis.jpg" alt="viola davis">
+            <div class="caption">
+                <h3>J.C. Barnett</h3>
+                <p>"Viola Davis"</p>
+                <p>2016</p>
+            </div>
+        </div>
+        <div class="thumbnail gallery-art">
+            <img src="barnart/red_trees.jpg" alt="red trees">
+            <div class="caption">
+                <h3>J.C. Barnett</h3>
+                <p>"Red Trees"</p>
+                <p>2016</p>
+            </div>
+        </div>
+        <div class="thumbnail gallery-art">
+            <img src="barnart/golden_fall_tree.jpg" alt="golden fall">
+            <div class="caption">
+                <h3>J.C. Barnett</h3>
+                <p>"Golden Fall"</p>
+                <p>2016</p>
             </div>
         </div>
     </div>
-</body>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+        <div class="container marketing">
+
+
+        <!-- Three columns of text below the carousel -->
+        <div id="gallery" class="row">
+            <div class="col-lg-4">
+            <img class="img-circle" src="barnart/buffalo_soldiers.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+            <img class="img-circle" src="barnart/sassy_ladies.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+            <img class="img-circle" src="barnart/viola_davis.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="barnart/family_outting.jpg" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="barnart/island_house.jpg" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="barnart/preacher.jpg" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+
+        <!-- FOOTER -->
+        <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; J.C. BARNETT 2016 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+
+        </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+      <!-- Carousel -->
+    <script language="JavaScript" type="text/javascript">
+        $(document).ready(function(){
+            console.log("I'm ready");
+        $('.carousel').carousel({
+            interval: 3000
+        })
+        var times = 0;
+        $('.left').on('click', function(){
+            console.log("I have been clicked " + times + " times");
+            times++;
+        });
+        });    
+    </script> 
+
+  </body>
 </html>
